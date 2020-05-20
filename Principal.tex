@@ -1,0 +1,263 @@
+% Pre-ambulo
+\documentclass[english, a4paper, 12pt]{abnt}
+
+\usepackage[english]{babel}
+
+\usepackage{babelbib}
+\usepackage{ucs}
+\usepackage{listings}
+\usepackage{tabu}
+\usepackage{longtable}
+%\usepackage{rotating}
+
+\usepackage[utf8]{inputenc}
+\usepackage{pslatex}
+\usepackage[T1]{fontenc}
+\usepackage{dsfont}
+\usepackage{amssymb,amsmath}
+\usepackage{multirow}
+\usepackage[pdftex]{color, graphicx}
+\usepackage{colortbl}
+\usepackage[dvipsnames]{xcolor}
+\definecolor{backgroundTable}{HTML}{C0C0C0}
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+\definecolor{darkblue}{rgb}{0.0,0.0,0.6}
+\definecolor{cyan}{rgb}{0.0,0.6,0.6}
+
+\definecolor{tableHeader}{RGB}{211, 47, 47}
+\definecolor{tableLineOne}{RGB}{245, 245, 245}
+\definecolor{tableLineTwo}{RGB}{224, 224, 224}
+
+\newcommand{\tableHeaderStyle}{
+    \rowfont{\leavevmode\color{white}\bfseries}
+    \rowcolor{tableHeader}
+}
+
+\lstset{
+  basicstyle=\ttfamily,
+  columns=fullflexible,
+  showstringspaces=false,
+  commentstyle=\color{gray}\upshape
+}
+
+\definecolor{maroon}{rgb}{0.5,0,0}
+\definecolor{darkgreen}{rgb}{0,0.5,0}
+\lstdefinelanguage{XML}
+{
+  basicstyle=\ttfamily,
+  morestring=[s]{"}{"},
+  morecomment=[s]{?}{?},
+  morecomment=[s]{!--}{--},
+  commentstyle=\color{darkgreen},
+  moredelim=[s][\color{black}]{>}{<},
+  moredelim=[s][\color{red}]{\ }{=},
+  stringstyle=\color{blue},
+  identifierstyle=\color{maroon}
+}
+\usepackage{url}
+\usepackage{verbatim}
+\usepackage[abnt-etal-cite=5,abnt-etal-list=0,bibjustif,alf]{abntcite}
+
+\def\changemargin#1#2{\list{}{\rightmargin#2\leftmargin#1}\item[]}
+\let\endchangemargin=\endlist 
+
+
+\usepackage[english,ruled,vlined]{algorithm2e}
+\usepackage{amsmath}
+\usepackage{relsize}
+\usepackage{multirow}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{booktabs}  
+\usepackage{graphicx,url}
+\usepackage{subfigure}
+\usepackage{subfloat}
+\usepackage{caption}
+\usepackage{placeins}
+\usepackage{float}
+\usepackage{afterpage}
+\usepackage{stfloats}
+\usepackage{enumerate}
+\citebrackets[]
+\usepackage{packages/capitulos}
+\usepackage{notoccite}
+\usepackage{chngcntr} 
+\counterwithin{figure}{chapter} 
+\counterwithin{table}{chapter} 
+
+% Redefinicao de instrucoes
+\floatname{algorithm}{Algorithm}
+%\renewcommand{\algorithmicrequire}{\textbf{Entrada:}}
+%\renewcommand{\algorithmicensure}{\textbf{Saída:}}
+%\renewcommand{\algorithmicend}{\textbf{fim}}
+%\renewcommand{\algorithmicif}{\textbf{se}}
+%\renewcommand{\algorithmicthen}{\textbf{então}}
+%\renewcommand{\algorithmicelse}{\textbf{senão}}
+%\renewcommand{\algorithmicfor}{\textbf{para}}
+%\renewcommand{\algorithmicforall}{\textbf{para todo}}
+%\renewcommand{\algorithmicdo}{\textbf{faça}}
+%\renewcommand{\algorithmicwhile}{\textbf{enquanto}}
+%\renewcommand{\algorithmicloop}{\textbf{loop}}
+%\renewcommand{\algorithmicrepeat}{\textbf{repetir}}
+%\renewcommand{\algorithmicuntil}{\textbf{até que}}
+%\renewcommand{\algorithmiccomment}[1]{\% #1}
+
+
+% Definicao da lista de simbolos
+% \simb[entrada na lista de simbolos]{simbolo}:
+% Escreve o simbolo no texto e uma entrada na lista de simbolos.
+% Se o parametro opcional e omitido, usa-se o parametro obrigatorio.
+\newcommand{\simb}[2][]
+{%
+	\ifthenelse{\equal{#1}{}}
+	{\addcontentsline{los}{simbolo}{#2}}
+	{\addcontentsline{los}{simbolo}{#1}}#2
+}
+% Para aceitar comandos com @ (at) no nome
+\makeatletter 
+% \listadesimbolos: comando que imprime a lista de simbolos
+\newcommand{\listadesimbolos}
+{
+	\pretextualchapter{Lista de símbolos}
+	{\setlength{\parindent}{0cm}
+	\@starttoc{los}}
+}
+% Como a entrada sera impressa
+\newcommand\l@simbolo[2]{\par #1}
+\makeatother
+
+% Alterando setcounter
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+
+% Definicao da lista de abreviaturas e siglas
+% \abrv[entrada na lista de simbolos]{abreviatura}:
+% Escreve a sigla/abreviatura no texto e uma entrada na lista de abreviaturas e siglas.
+% Se o parametro opcional e omitido, usa-se o parametro obrigatorio.
+\newcommand{\abrv}[2][]
+{%
+	\ifthenelse{\equal{#1}{}}
+	{\addcontentsline{loab}{abreviatura}{#2}}
+	{\addcontentsline{loab}{abreviatura}{#1}}#2
+}
+% Para aceitar comandos com @ (at) no nome
+\makeatletter 
+% \listadeabreviaturas: comando que imprime a lista de abreviaturas e siglas
+\newcommand{\listadeabreviaturas}
+{
+	\pretextualchapter{List of Acronyms and Abbreviations}
+	{\setlength{\parindent}{0cm}
+	\@starttoc{loab}}
+}
+% Como a entrada sera impressa
+\newcommand\l@abreviatura[2]{\par #1}
+\makeatother
+
+
+% \listofalgorithms: comando que imprime a lista de algoritmos
+%\renewcommand{\listofalgorithmsname}{List of Algorithms}
+
+
+% Hifenização de palavras feita de forma incorreta pelo LaTeX
+\hyphenation{PYTHON ou-tros}
+
+
+% Inicio do documento
+\begin{document}
+
+\frenchspacing
+	
+	% Capa (arquivo Includes/Capa.tex)
+	\include{Includes/Capa}
+
+	% Folha de rosto (arquivo Includes/FolhaRosto.tex)
+	\include{Includes/FolhaRosto}	
+	
+	% Folha de aprovacao (arquivo Includes/FolhaAprovacao.tex)
+	\include{Includes/FolhaAprovacao}	
+	%Dedicatoria e agradecimento so descomentar para a verdadeira versão final
+	% Dedicatoria (arquivo Includes/Dedicatoria.tex)
+	\include{Includes/Dedicatoria}
+	
+	% Agradecimentos (arquivo Includes/Agradecimentos.tex)
+	\include{Includes/Agradecimentos}
+   
+   % Epigrafe (arquivo Includes/Epigrafe.tex)
+	\include{Includes/Epigrafe}
+
+	% Prefácio (arquivo Includes/Prefacio.tex)
+	%\include{Includes/Prefacio}
+	
+	% Resumo em língua vernacula (arquivo Includes/Resumo.tex)
+	\include{Includes/Resumo}
+	
+	% Abstract, resumo em língua estrangeira (arquivo Include/Abstract.tex)
+	\include{Includes/Abstract}
+	
+	% Lista de figuras
+	\listoffigures
+
+	% Lista de tabelas
+	\listoftables
+	
+	% Lista de abreviaturas e siglas
+	\listadeabreviaturas
+
+	% Lista de símbolos
+%	\listadesimbolos
+	
+	% Lista de algoritmos (se houver)
+	% Devem ser incluídos os pacotes algorithm e algorithmic
+	% \listofalgorithms
+    
+    %Lista de códigos
+    \lstlistoflistings
+	
+	% Sumário
+	\sumario
+
+	% Parte central do trabalho, englobando os capítulos que constituem o mesmo
+	% Os referidos capítulos devem ser organizados dentro do diretório "Capítulos"
+	
+	% Capitulo 1: Introdução (arquivo Includes/Introducao.tex)
+	\include{Capitulos/Introducao} % Introdução
+	
+	% Capitulo 2: Segundo capítulo (arquivo Includes/Capitulo2.tex)
+	\include{Capitulos/Capitulo2} % Fundamentação Teórica
+	
+	% Capitulo 3: Terceiro capítulo (arquivo Includes/Capitulo3.tex)
+	\include{Capitulos/Capitulo3} % Trabalhos Relacionados
+	
+	% Capitulo 4: Quarto capítulo (arquivo Includes/Capitulo4.tex)
+	\include{Capitulos/Capitulo4}
+	
+	% Capitulo 5: Quinto capítulo (arquivo Includes/Capitulo5.tex)
+	\include{Capitulos/Capitulo5} 	 
+		
+	% Consideracoes finais
+	\include{Capitulos/Consideracoes} % Conclusão e Trabalhos Futuros
+
+	% Bibliografia (arquivo Capitulos/Referencias.bib)
+	\bibliography{Capitulos/Referencias}
+	\bibliographystyle{abnt-alf}
+%	\bibliographystyle{abnt}
+%	\bibliographystyle{ieeetr}
+%	\bibliographystyle{unsrt}
+%	\bibliographystyle{babunsrt}
+%	\bibliographystyle{unsrtnat}
+%	\bibliographystyle{abbrvnat}
+%	\bibliographystyle{plain}
+%	\bibliographystyle{babplain}
+%	\bibliographystyle{babunsrt}
+%	\bibliographystyle{abbrv}
+	
+	% Apêndice A (arquivo Includes/ApendiceA)
+	%\include{Capitulos/ApendiceA}
+	
+	% Anexo A (arquivo Includes/AnexoA)
+%	\include{Capitulos/AnexoA}
+	
+	% Página em branco
+	\newpage
+
+\end{document}

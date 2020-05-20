@@ -1,0 +1,312 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{1.45.2.1 }
+
+\bibitem[Arulogun A.~Adigun 2014]{Typtest1}
+\abntrefinfo{Arulogun A.~Adigun}{ARULOGUN A.~ADIGUN}{2014}
+{ARULOGUN A.~ADIGUN, O. O. R.~G. T. Design and development of a security
+  surveillance system based on wireless sensor network.
+\emph{International Journal of Innovative Science, Engineering and Technology},
+  v.~1, n.~4,  283--291, 2014.}
+
+\bibitem[Buyya et al. 2009]{Buyya2009}
+\abntrefinfo{Buyya et al.}{BUYYA et al.}{2009}
+{BUYYA, R. et al. Cloud computing and emerging it platforms: Vision, hype, and
+  reality for delivering computing as the 5th utility.
+\emph{Future Gener. Comput. Syst.}, Elsevier Science Publishers B. V.,
+  Amsterdam, The Netherlands, The Netherlands, v.~25, n.~6,  599--616, jun.
+  2009.
+ISSN 0167-739X.
+Dispon{\'\i}vel em: $<$http://dx.doi.org/10.1016/j.future.2008.12.001$>$.}
+
+\bibitem[Caterina, Hunter e Soraghan 2010]{Evaluation2}
+\abntrefinfo{Caterina, Hunter e Soraghan}{CATERINA; HUNTER; SORAGHAN}{2010}
+{CATERINA, G.~D.; HUNTER, I.; SORAGHAN, J.~J. An embedded smart surveillance
+  system for target tracking using a ptz camera. In:  \emph{Education and
+  Research Conference (EDERC), 2010 4th European}. 2010.  165--169.}
+
+\bibitem[Chen et al. 2009]{Chen2009}
+\abntrefinfo{Chen et al.}{CHEN et al.}{2009}
+{CHEN, C.-S. et al. Load-sharing overlay network design for ubiquitous video
+  surveillance services. In:  \emph{Ultra Modern Telecommunications Workshops,
+  2009. ICUMT '09. International Conference on}. 2009. ~1--7.}
+
+\bibitem[Chen, Xu e Guo 2013]{Xiang2013}
+\abntrefinfo{Chen, Xu e Guo}{CHEN; XU; GUO}{2013}
+{CHEN, X.; XU, J.-B.; GUO, W.-Q. The research about video surveillance platform
+  based on cloud computing. In:  \emph{Machine Learning and Cybernetics
+  (ICMLC), 2013 International Conference on}. 2013. v.~02,  979--983.}
+
+\bibitem[Cheng, Lin e Yeh 2014]{Cheng2014}
+\abntrefinfo{Cheng, Lin e Yeh}{CHENG; LIN; YEH}{2014}
+{CHENG, Y.-T.; LIN, H.-A.; YEH, Y.-J. A flexible architecture of real-time
+  audio transmission to heterogeneous devices for surveillance system. In:
+  \emph{Network Operations and Management Symposium (APNOMS), 2014 16th
+  Asia-Pacific}. 2014. ~1--4.}
+
+\bibitem[Dey et al. 2012]{dey2012smart}
+\abntrefinfo{Dey et al.}{DEY et al.}{2012}
+{DEY, S. et al. Smart city surveillance: Leveraging benefits of cloud data
+  stores. In:  IEEE. \emph{Local Computer Networks Workshops (LCN Workshops),
+  2012 IEEE 37th Conference on}. 2012.  868--876.}
+
+\bibitem[Droege 1997]{Droege1997}
+\abntrefinfo{Droege}{DROEGE}{1997}
+{DROEGE, P. Introduction. In:  DROEGE, P. (Ed.). \emph{Intelligent
+  Environments}. Amsterdam: North-Holland, 1997.  v -- vi.
+ISBN 978-0-444-82332-8.
+Dispon{\'\i}vel em:
+  $<$http://www.sciencedirect.com/science/article/pii/B9780444823328500007$>$.}
+
+\bibitem[Hall e Budinger 2007]{Evaluation6}
+\abntrefinfo{Hall e Budinger}{HALL; BUDINGER}{2007}
+{HALL, D.~D.; BUDINGER, J. Nextgen ats communications, navigation, and
+  surveillance test bed. In:  \emph{2007 IEEE/AIAA 26th Digital Avionics
+  Systems Conference}. 2007.  4.A.1--1--4.A.1--11.
+ISSN 2155-7195.}
+
+\bibitem[Hampapur et al. 2003]{Evaluation3}
+\abntrefinfo{Hampapur et al.}{HAMPAPUR et al.}{2003}
+{HAMPAPUR, A. et al. Smart surveillance: applications, technologies and
+  implications. In:  \emph{Information, Communications and Signal Processing,
+  2003 and Fourth Pacific Rim Conference on Multimedia. Proceedings of the 2003
+  Joint Conference of the Fourth International Conference on}. 2003. v.~2,
+  1133--1138 vol.2.}
+
+\bibitem[Hampapur et al. 2004]{Evaluation5}
+\abntrefinfo{Hampapur et al.}{HAMPAPUR et al.}{2004}
+{HAMPAPUR, A. et al. S3-r1: The ibm smart surveillance system-release 1. In:
+  \emph{Proceedings of the 2004 ACM SIGMM Workshop on Effective Telepresence}.
+  New York, NY, USA: ACM, 2004.  (ETP '04),  59--62.
+ISBN 1-58113-933-0. Dispon{\'\i}vel em:
+  $<$http://doi.acm.org/10.1145/1026776.1026794$>$.}
+
+\bibitem[Hansmann, Nicklous e Stober 2001]{Hansmann2001}
+\abntrefinfo{Hansmann, Nicklous e Stober}{HANSMANN; NICKLOUS; STOBER}{2001}
+{HANSMANN, U.; NICKLOUS, M.~S.; STOBER, T. \emph{Pervasive Computing Handbook}.
+  New York, NY, USA: Springer-Verlag New York, Inc., 2001.
+ISBN 3-540-67122-6.}
+
+\bibitem[Harrendorf, Heiskanen e Malby 2010]{Harrendorf2010}
+\abntrefinfo{Harrendorf, Heiskanen e Malby}{HARRENDORF; HEISKANEN; MALBY}{2010}
+{HARRENDORF, S.; HEISKANEN, M.; MALBY, S. {International statistics on crime
+  and justice}.
+2010.
+Dispon{\'\i}vel em: $<$https://www.unodc.org/documents/data-and-analysis/$>$.}
+
+\bibitem[Hayes 2008]{Hayes2008}
+\abntrefinfo{Hayes}{HAYES}{2008}
+{HAYES, B. Cloud computing.
+\emph{Commun. ACM}, ACM, New York, NY, USA, v.~51, n.~7,  9--11, jul. 2008.
+ISSN 0001-0782.
+Dispon{\'\i}vel em: $<$http://doi.acm.org/10.1145/1364782.1364786$>$.}
+
+\bibitem[Hossain 2014]{Anwar_Hossain}
+\abntrefinfo{Hossain}{HOSSAIN}{2014}
+{HOSSAIN, M.~A. Framework for a cloud-based multimedia surveillance system.
+\emph{International Journal of Distributed Sensor Networks}, May 2014.}
+
+\bibitem[Jian et al. 2015]{Yang2015}
+\abntrefinfo{Jian et al.}{JIAN et al.}{2015}
+{JIAN, Y. et al. Cloud computing and visual attention based object detection
+  for power substation surveillance robots. In:  \emph{Electrical and Computer
+  Engineering (CCECE), 2015 IEEE 28th Canadian Conference on}. 2015.  337--342.
+ISSN 0840-7789.}
+
+\bibitem[Karagiannis et al. 2011]{Karagiannis2011}
+\abntrefinfo{Karagiannis et al.}{KARAGIANNIS et al.}{2011}
+{KARAGIANNIS, G. et al. Vehicular networking: A survey and tutorial on
+  requirements, architectures, challenges, standards and solutions.
+\emph{Communications Surveys Tutorials, IEEE}, v.~13, n.~4,  584--616, Fourth
+  2011.
+ISSN 1553-877X.}
+
+\bibitem[Komninos 2006]{Komninos2006}
+\abntrefinfo{Komninos}{KOMNINOS}{2006}
+{KOMNINOS, N. The architecture of intelligent clities: Integrating human,
+  collective and artificial intelligence to enhance knowledge and innovation.
+  In:  \emph{Intelligent Environments, 2006. IE 06. 2nd IET International
+  Conference on}. 2006. v.~1,  13--20.
+ISSN 0537-9989.}
+
+\bibitem[Li et al. 2009]{Xinhui2009}
+\abntrefinfo{Li et al.}{LI et al.}{2009}
+{LI, X. et al. The method and tool of cost analysis for cloud computing. In:
+  \emph{Cloud Computing, 2009. CLOUD '09. IEEE International Conference on}.
+  2009.  93--100.}
+
+\bibitem[Moniak et al. 2007]{Moniak2007}
+\abntrefinfo{Moniak et al.}{MONIAK et al.}{2007}
+{MONIAK, G. et al. Robust and high data rate wireless link for security between
+  a bus and a control centre. In:  \emph{Vehicular Technology Conference, 2007.
+  VTC-2007 Fall. 2007 IEEE 66th}. 2007.  1426--1430.
+ISSN 1090-3038.}
+
+\bibitem[Murray, Cerqueira e Kahn 2013]{Murray2013}
+\abntrefinfo{Murray, Cerqueira e Kahn}{MURRAY; CERQUEIRA; KAHN}{2013}
+{MURRAY, J.; CERQUEIRA, D.~R. de C.; KAHN, T. Crime and violence in brazil:
+  Systematic review of time trends, prevalence rates and risk factors.
+\emph{Aggression and Violent Behavior}, v.~18, n.~5,  471 -- 483, 2013.
+ISSN 1359-1789.
+Dispon{\'\i}vel em:
+  $<$http://www.sciencedirect.com/science/article/pii/S1359178913000566$>$.}
+
+\bibitem[Nardi et al. 2006]{Nardi2006}
+\abntrefinfo{Nardi et al.}{NARDI et al.}{2006}
+{NARDI, R.~D. et al. Swarmav: A swarm of miniature aerial vehicles. In:
+  \emph{IN PROCEEDINGS OF THE 21ST BRISTOL INTERNATIONAL UAV SYSTEMS
+  CONFERENCE}. 2006.}
+
+\bibitem[Neto; 2014]{barros2014}
+\abntrefinfo{Neto;}{NETO;}{2014}
+{NETO;, H. B. C. A. J.~V. Fisver: A framework for smart public safety in
+  video-surveilled vehicles. In:  \emph{Advances in Communication Networks and
+  Computing Infrastructure - ADVANCEs 2014}. 2014. Dispon{\'\i}vel em:
+  $<$http://dx.doi.org/10.13140/2.1.3664.6723$>$.}
+
+\bibitem[Onut et al. 2010]{Evaluation4}
+\abntrefinfo{Onut et al.}{ONUT et al.}{2010}
+{ONUT, V. et al. Smart surveillance system applications. In:  \emph{Proceedings
+  of the 2010 Conference of the Center for Advanced Studies on Collaborative
+  Research}. Riverton, NJ, USA: IBM Corp., 2010.  (CASCON '10),  430--432.
+  Dispon{\'\i}vel em: $<$http://dx.doi.org/10.1145/1923947.1924031$>$.}
+
+\bibitem[Orwellian Ubiquitous Computing May Build Ultimate Surveillance Society
+  | Old-Thinker News]{Orwel42}
+\abntrefinfo{Orwellian\ldots}{ORWELLIAN\ldots}{}
+{ORWELLIAN Ubiquitous Computing May Build Ultimate Surveillance Society |
+  Old-Thinker News.
+\url{http://www.oldthinkernews.com/2008/05/26/orwellian-ubiquitous-computing-may-build-ultimate-surveillance-society/}.
+(Accessed on 06/27/2016).}
+
+\bibitem[OSAC 2015]{OSAC2015}
+\abntrefinfo{OSAC}{OSAC}{2015}
+{OSAC. \emph{Brazil 2015 Crime and Safety Report: Rio de Janeiro}. 2015.
+\url{https://www.osac.gov/pages/ContentReportDetails.aspx?cid=17164}.
+(Visited on 12/10/2015).}
+
+\bibitem[Paul e Park 2013]{Paul2013}
+\abntrefinfo{Paul e Park}{PAUL; PARK}{2013}
+{PAUL, A.; PARK, J.~S. Multiclass object recognition using smart phone and
+  cloud computing for augmented reality and video surveillance applications.
+  In:  \emph{Informatics, Electronics Vision (ICIEV), 2013 International
+  Conference on}. 2013. ~1--6.}
+
+\bibitem[Peng et al. 2011]{peng2011}
+\abntrefinfo{Peng et al.}{PENG et al.}{2011}
+{PENG, Y. et al. Cascade-based license plate localization with line segment
+  features and haar-like features. In:  \emph{Image and Graphics (ICIG), 2011
+  Sixth International Conference on}. 2011.  1023--1028.}
+
+\bibitem[Pribyl e Horak 2015]{Pribyl2015}
+\abntrefinfo{Pribyl e Horak}{PRIBYL; HORAK}{2015}
+{PRIBYL, O.; HORAK, T. Individual perception of smart city strategies. In:
+  \emph{Smart Cities Symposium Prague (SCSP), 2015}. 2015. ~1--6.}
+
+\bibitem[Ranganathan et al. 2005]{Ranganathan2005}
+\abntrefinfo{Ranganathan et al.}{RANGANATHAN et al.}{2005}
+{RANGANATHAN, A. et al. Towards a pervasive computing benchmark. In:
+  \emph{Pervasive Computing and Communications Workshops, 2005. PerCom 2005
+  Workshops. Third IEEE International Conference on}. 2005.  194--198.}
+
+\bibitem[Rodriguez-Silva et al. 2012]{Rodriguez2012}
+\abntrefinfo{Rodriguez-Silva et al.}{RODRIGUEZ-SILVA et al.}{2012}
+{RODRIGUEZ-SILVA, D. et al. Video surveillance based on cloud storage. In:
+  \emph{Cloud Computing (CLOUD), 2012 IEEE 5th International Conference on}.
+  2012.  991--992.
+ISSN 2159-6182.}
+
+\bibitem[Saha e Mukherjee 2003]{Saha2003}
+\abntrefinfo{Saha e Mukherjee}{SAHA; MUKHERJEE}{2003}
+{SAHA, D.; MUKHERJEE, A. Pervasive computing: a paradigm for the 21st century.
+\emph{Computer}, v.~36, n.~3,  25--31, Mar 2003.
+ISSN 0018-9162.}
+
+\bibitem[Salmane, Khoudour e Ruichek 2015]{salmane2015}
+\abntrefinfo{Salmane, Khoudour e Ruichek}{SALMANE; KHOUDOUR; RUICHEK}{2015}
+{SALMANE, H.; KHOUDOUR, L.; RUICHEK, Y. A video-analysis-based railway - road
+  safety system for detecting hazard situations at level crossings.
+\emph{IEEE Transactions on Intelligent Transportation Systems}, v.~16, n.~2,
+  596--609, April 2015.
+ISSN 1524-9050.}
+
+\bibitem[Satyanarayanan 2001]{943998}
+\abntrefinfo{Satyanarayanan}{SATYANARAYANAN}{2001}
+{SATYANARAYANAN, M. Pervasive computing: vision and challenges.
+\emph{Personal Communications, IEEE}, v.~8, n.~4,  10--17, Aug 2001.
+ISSN 1070-9916.}
+
+\bibitem[Schaffers et al. 2011]{Schaffers2011}
+\abntrefinfo{Schaffers et al.}{SCHAFFERS et al.}{2011}
+{SCHAFFERS, H. et al. Smart cities and the future internet: Towards cooperation
+  frameworks for open innovation. In:  DOMINGUE, J. et al. (Ed.). \emph{The
+  Future Internet}. : Springer Berlin Heidelberg, 2011,  (Lecture Notes in
+  Computer Science, v.~6656).  431--446.
+ISBN 978-3-642-20897-3.}
+
+\bibitem[Schonfeld 2010]{Schonfeld2010}
+\abntrefinfo{Schonfeld}{SCHONFELD}{2010}
+{SCHONFELD, D. The evolution of signal processing [from the editor].
+\emph{Signal Processing Magazine, IEEE}, v.~27, n.~5, ~2--6, Sept 2010.
+ISSN 1053-5888.}
+
+\bibitem[Sodemann, Ross e Borghetti 2012]{Sodemann2012}
+\abntrefinfo{Sodemann, Ross e Borghetti}{SODEMANN; ROSS; BORGHETTI}{2012}
+{SODEMANN, A.; ROSS, M.; BORGHETTI, B. A review of anomaly detection in
+  automated surveillance.
+\emph{Systems, Man, and Cybernetics, Part C: Applications and Reviews, IEEE
+  Transactions on}, v.~42, n.~6,  1257--1272, Nov 2012.
+ISSN 1094-6977.}
+
+\bibitem[Sunehra e Bano 2014]{Sunehra2014}
+\abntrefinfo{Sunehra e Bano}{SUNEHRA; BANO}{2014}
+{SUNEHRA, D.; BANO, A. An intelligent surveillance with cloud storage for home
+  security. In:  \emph{India Conference (INDICON), 2014 Annual IEEE}. 2014.
+  ~1--6.}
+
+\bibitem[Velte, Velte e Elsenpeter 2010]{Velte2009}
+\abntrefinfo{Velte, Velte e Elsenpeter}{VELTE; VELTE; ELSENPETER}{2010}
+{VELTE, T.; VELTE, A.; ELSENPETER, R. \emph{Cloud Computing, A Practical
+  Approach}. 1. ed. New York, NY, USA: McGraw-Hill, Inc., 2010.
+ISBN 0071626948, 9780071626941.}
+
+\bibitem[Wang et al. 2008]{Wang2008}
+\abntrefinfo{Wang et al.}{WANG et al.}{2008}
+{WANG, T.-C. et al. Ubiquitous video surveillance service with secure
+  forwarding agents. In:  \emph{Communications, 2008. APCC 2008. 14th
+  Asia-Pacific Conference on}. 2008. ~1--5.}
+
+\bibitem[Weiser 1999]{Weiser1999}
+\abntrefinfo{Weiser}{WEISER}{1999}
+{WEISER, M. The computer for the 21st century.
+\emph{SIGMOBILE Mob. Comput. Commun. Rev.}, ACM, New York, NY, USA, v.~3, n.~3,
+   3--11, jul. 1999.
+ISSN 1559-1662.
+Dispon{\'\i}vel em: $<$http://doi.acm.org/10.1145/329124.329126$>$.}
+
+\bibitem[Wen, Yang e Xu 2010]{Wen2010}
+\abntrefinfo{Wen, Yang e Xu}{WEN; YANG; XU}{2010}
+{WEN, Y.; YANG, X.; XU, Y. Cloud-computing-based framework for multi-camera
+  topology inference in smart city sensing system. In:  \emph{Proceedings of
+  the 2010 ACM Multimedia Workshop on Mobile Cloud Media Computing}. New York,
+  NY, USA: ACM, 2010.  (MCMC '10),  65--70.
+ISBN 978-1-4503-0168-8. Dispon{\'\i}vel em:
+  $<$http://doi.acm.org/10.1145/1877953.1877971$>$.}
+
+\bibitem[Winkler e Rinner 2009]{Evaluation1}
+\abntrefinfo{Winkler e Rinner}{WINKLER; RINNER}{2009}
+{WINKLER, T.; RINNER, B. Pervasive smart camera networks exploiting
+  heterogeneous wireless channels. In:  \emph{Pervasive Computing and
+  Communications, 2009. PerCom 2009. IEEE International Conference on}. 2009.
+  ~1--4.}
+
+\bibitem[Zhu, Qiu e Song 2013]{FANG2013}
+\abntrefinfo{Zhu, Qiu e Song}{ZHU; QIU; SONG}{2013}
+{ZHU, F.; QIU, H.; SONG, Z.~Y. Rhizome: A middle-ware for cloud vision
+  computing framework. In:  \emph{Smart and Sustainable City 2013 (ICSSC 2013),
+  IET International Conference on}. 2013.  193--197.}
+
+\end{thebibliography}
